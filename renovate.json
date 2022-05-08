@@ -4,6 +4,6 @@
   ],
   "ignorePresets": [
     ":prHourlyLimit2",
-    ":pinAllExceptPeerDependencies"
+    ":pinDependencies"
   ]
 }
