@@ -2,9 +2,7 @@
   "separateMajorMinor": false,
   "extends": [
     ":preserveSemverRanges",
-    "group:all",
-    "schedule:monthly",
-    ":maintainLockFilesMonthly"
+    "group:all"
   ],
   "lockFileMaintenance": {
     "extends": [
