@@ -4,11 +4,5 @@
     ":preserveSemverRanges",
     "group:all"
   ],
-  "lockFileMaintenance": {
-    "extends": [
-      "group:all"
-    ],
-    "commitMessagePrefix": "chore: ",
-    "commitMessageAction": "Update"
-  }
+  "commitMessagePrefix": "chore: "
 }
