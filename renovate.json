@@ -3,6 +3,7 @@
     "config:base"
   ],
   "ignorePresets": [
-    ":prHourlyLimit2"
+    ":prHourlyLimit2",
+    ":pinAllExceptPeerDependencies"
   ]
 }
