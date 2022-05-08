@@ -1,5 +1,5 @@
 {
-  "separateMajorMinor": false,
+  "separateMajorMinor": true,
   "extends": [
     ":preserveSemverRanges",
     "group:all"
