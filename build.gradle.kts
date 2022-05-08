@@ -16,7 +16,7 @@ repositories {
     mavenCentral()
 }
 
-extra["springCloudVersion"] = "2021.0.1"
+val springCloudVersion = "2021.0.1"
 
 //dependencyManagement {
 //    imports {
@@ -26,7 +26,7 @@ extra["springCloudVersion"] = "2021.0.1"
 
 
 dependencies {
-    implementation(platform("org.springframework.cloud:spring-cloud-dependencies:${property("springCloudVersion")}"))
+    implementation(platform("org.springframework.cloud:spring-cloud-dependencies:$springCloudVersion"))
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
