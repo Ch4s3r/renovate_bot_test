@@ -4,6 +4,7 @@
   ],
   "ignorePresets": [
     ":prHourlyLimit2",
-    ":pinDependencies"
+    ":pinDependencies",
+    ":autodetectPinVersions"
   ]
 }
