@@ -1,8 +1,15 @@
 {
+  "separateMajorMinor": false,
   "extends": [
-    "config:semverAllMonthly"
+    ":preserveSemverRanges",
+    "group:all",
+    "schedule:monthly",
+    ":maintainLockFilesMonthly"
   ],
-  "ignorePresets": [
-    ":prHourlyLimit2"
-  ]
+  "lockFileMaintenance": {
+    "extends": [
+      "group:all"
+    ],
+    "commitMessageAction": "Update"
+  }
 }
