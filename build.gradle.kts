@@ -20,7 +20,7 @@ extra["springCloudVersion"] = "2021.0.1"
 
 dependencyManagement {
     imports {
-        mavenBom("org.springframework.cloud:spring-cloud-dependencies:2021.0.1")
+        mavenBom("org.springframework.cloud:spring-cloud-dependencies:2021.0.2")
     }
 }
 
