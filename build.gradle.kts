@@ -16,7 +16,7 @@ repositories {
     mavenCentral()
 }
 
-val springCloudVersion = "2021.0.1"
+val springCloudVersion = "2021.0.2"
 
 dependencies {
     implementation(platform("org.springframework.cloud:spring-cloud-dependencies:$springCloudVersion"))
