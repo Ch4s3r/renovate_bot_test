@@ -8,6 +8,7 @@
     "extends": [
       "group:all"
     ],
+    "commitMessagePrefix": "chore: ",
     "commitMessageAction": "Update"
   }
 }
