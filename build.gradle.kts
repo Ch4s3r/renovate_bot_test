@@ -16,23 +16,15 @@ repositories {
     mavenCentral()
 }
 
-//dependencyManagement {
+// dependencyManagement {
 //    imports {
 //        mavenBom("org.springframework.cloud:spring-cloud-dependencies:2021.0.1")
 //    }
-//}
+// }
 
-extra["springCloudVersion"] = "2020.0.1"
-
-dependencyManagement {
-    imports {
-        mavenBom("org.springframework.cloud:spring-cloud-sleuth-otel-dependencies:1.1.0-M5")
-        mavenBom("org.springframework.cloud:spring-cloud-dependencies:${property("springCloudVersion")}")
-    }
-}
 
 dependencies {
-    implementation(platform("org.springframework.cloud:spring-cloud-dependencies:2021.0.1"))
+    implementation(platform("org.springframework.cloud:spring-cloud-dependencies:${property("springCloudVersion")}"))
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
@@ -43,7 +35,6 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.12.6")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
-
 
 tasks.withType<KotlinCompile> {
     kotlinOptions {
