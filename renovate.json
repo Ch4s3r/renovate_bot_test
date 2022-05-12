@@ -4,5 +4,6 @@
     ":preserveSemverRanges",
     "group:all"
   ],
-  "commitMessagePrefix": "chore: "
+  "commitMessagePrefix": "chore: ",
+  "recreateClosed": true
 }
