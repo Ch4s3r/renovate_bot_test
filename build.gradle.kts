@@ -22,6 +22,7 @@ repositories {
 //    }
 // }
 
+extra["springCloudVersion"] = "2021.0.1"
 
 dependencies {
     implementation(platform("org.springframework.cloud:spring-cloud-dependencies:${property("springCloudVersion")}"))
