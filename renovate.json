@@ -1,7 +1,6 @@
 {
   "separateMajorMinor": true,
   "extends": [
-    ":preserveSemverRanges",
     "group:all"
   ],
   "commitMessagePrefix": "chore: ",
