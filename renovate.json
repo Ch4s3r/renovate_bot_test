@@ -1,7 +1,6 @@
 {
-  "separateMajorMinor": true,
   "extends": [
-    "group:all"
+    "group:allNonMajor"
   ],
   "commitMessagePrefix": "chore: ",
   "recreateClosed": true
