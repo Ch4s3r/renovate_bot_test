@@ -24,7 +24,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("com.auth0:java-jwt:3.19.2")
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.12.6")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.14.1")
     testImplementation("com.h2database:h2:1.4.200")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
