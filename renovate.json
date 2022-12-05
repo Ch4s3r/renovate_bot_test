@@ -1,7 +1,0 @@
-{
-  "extends": [
-    "group:allNonMajor"
-  ],
-  "commitMessagePrefix": "chore: ",
-  "recreateClosed": true
-}
