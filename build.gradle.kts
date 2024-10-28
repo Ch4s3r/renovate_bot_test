@@ -14,6 +14,10 @@ java {
     }
 }
 
+tasks.updateDaemonJvm {
+    jvmVersion = JavaVersion.VERSION_17
+}
+
 repositories {
     mavenCentral()
 }
