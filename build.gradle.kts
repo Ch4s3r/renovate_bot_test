@@ -8,9 +8,10 @@ plugins {
 group = "com.example"
 version = "0.0.1-SNAPSHOT"
 
-
-kotlin {
-    jvmToolchain(17)
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
 }
 
 repositories {
