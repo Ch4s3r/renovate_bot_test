@@ -4,11 +4,11 @@
     "config:recommended"
   ],
   "ignorePresets": ["workarounds:javaLTSVersions"],
-  packageRules: [
+  "packageRules": [
     {
-      matchPaths: [".*"],
-      allowedVersions: "/-SNAPSHOT$/",
-      description: "Allow SNAPSHOT versions"
+      "matchPaths": [".*"],
+      "allowedVersions": "/-SNAPSHOT$/",
+      "description": "Allow SNAPSHOT versions"
     },
   ],
 }
