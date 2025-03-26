@@ -12,7 +12,14 @@
         ".*"
       ],
       "allowedVersions": "/-SNAPSHOT$/",
-      "description": "Allow SNAPSHOT versions"
+      "description": "Allow SNAPSHOT versions",
+      "respectVersionConstraints": true,
+      "rangeStrategy": "auto"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchDepTypes": ["final"],
+      "enabled": true
     }
   ]
 }
