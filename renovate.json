@@ -5,20 +5,5 @@
   ],
   "ignorePresets": [
     "workarounds:javaLTSVersions"
-  ],
-  "packageRules": [
-    {
-      "matchFileNames": [
-        ".*"
-      ],
-      "allowedVersions": "/-SNAPSHOT$/",
-      "description": "Allow SNAPSHOT versions",
-      "rangeStrategy": "auto"
-    },
-    {
-      "matchDatasources": ["docker"],
-      "matchDepTypes": ["final"],
-      "enabled": true
-    }
   ]
 }
