@@ -5,11 +5,5 @@
   ],
   "ignorePresets": [
     "workarounds:javaLTSVersions"
-  ],
-  "packageRules": [
-    {
-      "matchDatasources": ["docker"],
-      "versioning": "loose"
-    }
   ]
 }
