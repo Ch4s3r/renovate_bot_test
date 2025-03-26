@@ -13,7 +13,6 @@
       ],
       "allowedVersions": "/-SNAPSHOT$/",
       "description": "Allow SNAPSHOT versions",
-      "respectVersionConstraints": true,
       "rangeStrategy": "auto"
     },
     {
