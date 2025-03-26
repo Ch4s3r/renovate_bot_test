@@ -3,12 +3,16 @@
   "extends": [
     "config:recommended"
   ],
-  "ignorePresets": ["workarounds:javaLTSVersions"],
+  "ignorePresets": [
+    "workarounds:javaLTSVersions"
+  ],
   "packageRules": [
     {
-      "matchPaths": [".*"],
+      "matchFileNames": [
+        ".*"
+      ],
       "allowedVersions": "/-SNAPSHOT$/",
       "description": "Allow SNAPSHOT versions"
-    },
-  ],
+    }
+  ]
 }
