@@ -3,5 +3,12 @@
   "extends": [
     "config:recommended"
   ],
-  "ignorePresets": ["workarounds:javaLTSVersions"]
+  "ignorePresets": ["workarounds:javaLTSVersions"],
+  packageRules: [
+    {
+      matchPaths: [".*"],
+      allowedVersions: "/-SNAPSHOT$/",
+      description: "Allow SNAPSHOT versions"
+    },
+  ],
 }
